@@ -17,9 +17,13 @@ local function run(msg, matches)
 	end
 end
 return {
+	usage ={
+		"broadcast: Send A Message To All Groups.",
+		"bc [id]: Send A Message To Target Group.",
+		},
   patterns = {
-    "^[!/](broadcast) +(.+)$",
-    "^[!/](bc) (%d+) (.*)$"
+    "^(broadcast) +(.+)$",
+    "^(bc) (%d+) (.*)$"
   },
   run = run
 }
