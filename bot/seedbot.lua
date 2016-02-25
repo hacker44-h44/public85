@@ -220,6 +220,8 @@ function create_config( )
     "set",
     "get",
     "broadcast",
+    "plugins",
+    "Plugins",
     "download_media",
     "invite",
     "all",
